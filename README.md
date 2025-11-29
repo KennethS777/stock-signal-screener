@@ -46,7 +46,7 @@ Python ETL → PostgreSQL data model → quantitative signals and backtesting �
    - **Backtest Performance**: equity curve and summary performance metrics.
 
    ## Stock Signal Screener
-![Stock Signal Screener](docs/stock_signal_screener.png)
+![Stock Signal Screener](docs/stock_signal_dashboard.png)
 
 ## Backtest Performance
-![Backtest Performance](docs/backtest_performance.png)
+![Backtest Performance](docs/backtest_dashboard.png)
