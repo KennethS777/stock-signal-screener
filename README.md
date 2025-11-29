@@ -44,3 +44,9 @@ Python ETL → PostgreSQL data model → quantitative signals and backtesting �
 5. **Dashboards (Tableau)**
    - **Stock Signal Screener**: latest signals table + linked price+SMA chart.
    - **Backtest Performance**: equity curve and summary performance metrics.
+
+   ## Stock Signal Screener
+![Stock Signal Screener](docs/stock_signal_screener.png)
+
+## Backtest Performance
+![Backtest Performance](docs/backtest_performance.png)
