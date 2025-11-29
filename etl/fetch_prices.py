@@ -8,8 +8,18 @@ def get_ticker_list()-> List[str]:
     """
     Retrieve a list of stock tickers to fetch prices for.
     For demonstration, we return a static list. In a real scenario,"""
-    return ["AAPL", "MSFT", "GOOGL", "AMZN", "META", 
-            "JPM", "JNJ", "V", "PG", "XOM",]
+    return [
+        "AAPL", "MSFT", "AMZN", "GOOGL", "META",
+        "NVDA", "TSLA", "BRK-B", "JPM", "JNJ",
+        "V", "PG", "XOM", "UNH", "HD",
+        "MA", "BAC", "COST", "PFE", "KO",
+        "ABBV", "CSCO", "PEP", "ADBE", "AVGO",
+        "CMCSA", "TMO", "DIS", "VZ", "CRM",
+        "ABT", "ACN", "WMT", "MCD", "DHR",
+        "NKE", "TXN", "MRK", "WFC", "ORCL",
+        "AMD", "HON", "CAT", "MDT", "IBM",
+        "QCOM", "LIN", "INTC", "LOW", "UPS",
+    ]
 
 def fetch_daily_prices(tickers: List[str],
                        start_date: str = "2015-01-01",
